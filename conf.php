@@ -18,6 +18,6 @@ $conf['site_lang'] = 'en';
 $conf['mail_type'] = 'smtp';// Options: 'smtp' or 'mail'
 $conf['smtp_host'] = 'smtp.gmail.com';
 $conf['smtp_user'] = 'austin.maina@strathmore.edu';
-$conf['smtp_pass'] = 'akvb jygs fdan upyx';
+$conf['smtp_pass'] = '';
 $conf['smtp_port'] = 465;
 $cong['smtp_secure'] = 'ssl';

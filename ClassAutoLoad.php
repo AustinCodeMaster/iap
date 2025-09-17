@@ -1,4 +1,6 @@
 <?php
+//Load Composer's autoloader (created by composer, not included with PHPMailer)
+require 'pluggins/PHPMailer/vendor/autoload.php';
 require_once 'conf.php';
 $directories = ["Forms", "Layouts", "Global"];
 
@@ -13,6 +15,6 @@ spl_autoload_register(function ($className) use ($directories) {
 });
 
 // create an instance of HelloWorld
-$hello = new classes();
+$objSendMail = new SendMail();
 $form = new forms();
 $layout = new layouts();
